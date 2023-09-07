@@ -5,7 +5,7 @@ backend:
 media_folder: "public"
 
 media_library:
-  name: heroimages
+  name: uploadcare
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
