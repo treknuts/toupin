@@ -17,4 +17,4 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
-      - { label: "Hero Image", name: "heroImage", widget: "blob" }
+      - { label: "Hero Image", name: "heroImage", widget: "image" }
