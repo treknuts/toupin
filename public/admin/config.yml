@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "public"
+media_folder: ""
 
 media_library:
   name: uploadcare
