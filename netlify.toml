@@ -1,4 +1,3 @@
-[[redirects]]
 [[headers]]
   for = "/*"
   [headers.values]
