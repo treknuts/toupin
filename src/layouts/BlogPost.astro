@@ -1,9 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
@@ -11,10 +9,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 const { slug } = Astro.params;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={title} description={description} />
-    <style>
+<style>
       main {
         width: calc(100% - 2em);
         max-width: 100%;
@@ -53,11 +48,9 @@ const { slug } = Astro.params;
         font-style: italic;
       }
     </style>
-  </head>
 
-  <body>
-    <Header />
-    <main>
+
+<Layout>
       <article>
         <div class="hero-image">
           {
@@ -90,7 +83,4 @@ const { slug } = Astro.params;
           <slot />
         </div>
       </article>
-    </main>
-    <Footer />
-  </body>
-</html>
+</Layout>
