@@ -1,5 +1,5 @@
 [[headers]]
   for = "/*"
-  [headers.values]
+  [values]
     Access-Control-Allow-Origin = "https://identity.netlify.com"
     X-Robots-Tag = "all"
