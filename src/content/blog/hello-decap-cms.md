@@ -2,7 +2,7 @@
 title: Hello Decap CMS!
 description: First blog post using the Decap CMS integration
 pubDate: 2023-09-07T19:06:11.674Z
-heroImage: '/images/marcel-strauss-p2diyqfet2q-unsplash.jpg'
+heroImage: /images/blog-placeholder-about.jpg
 ---
 ## W﻿oah
 
