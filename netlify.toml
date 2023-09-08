@@ -1,4 +1,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    x-robots-tag = 'all'
+    X-Robots-Tag = 'all'
