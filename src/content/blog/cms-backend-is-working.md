@@ -4,4 +4,6 @@ description: "Wowie zowie "
 pubDate: 2023-09-08T15:20:39.645Z
 heroImage: /images/blog-placeholder-3.jpg
 ---
-W﻿e have content
+W﻿e have content, but the cursor is jumping around when I type things? treknuts can't reproduce 
+
+# ¯\\_(ツ)\_/¯
