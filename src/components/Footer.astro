@@ -7,10 +7,11 @@ import NetlifyIdentity from "./NetlifyIdentity.svelte";
   <p>&copy; {today.getFullYear()} Toupin All rights reserved.</p>
   <p>
     Built by <a href="https://linkedin.com/in/treknuts" target="_blank"
-      >Trevor Knutson</a>
+      >Trevor Knutson</a
+    >
   </p>
-  <NetlifyIdentity client:load />
   <div class="social-links">
+    <NetlifyIdentity client:load />
     <a href="https://github.com/snapish" target="_blank">
       <span class="sr-only">Go to Toupin's GitHub repo</span>
       <svg
