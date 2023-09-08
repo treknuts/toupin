@@ -8,6 +8,6 @@ heroImage: /images/blog-placeholder-about.jpg
 
 T﻿his shit is pretty crazy.
 
-## T﻿ODO
+## ~~T﻿ODO~~
 
-F﻿ix the god damn image upload thingy
+~~Fix the god damn image upload thingy~~
